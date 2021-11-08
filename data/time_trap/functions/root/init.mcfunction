@@ -33,6 +33,11 @@
 #define NETHERITE_600 75
 #define NETHERITE_1800 77
 
+#define COPPER_5 81
+#define COPPER_10 83
+#define COPPER_20 85
+#define COPPER_30 87
+
 #tag tt_tt_clocking 参与倒计时的玩家将携带该标签
 #tag tt_pause 暂停倒计时的玩家带有此标签
 #tag tt_tt_set_given_time_manually 自己设置难度或者微调给予时间的玩家带有此标签
@@ -54,6 +59,7 @@ scoreboard objectives add tt_remainingTime dummy
 scoreboard objectives add tt_temp dummy
 
 #某种块给予的时间
+scoreboard objectives add tt_copper dummy
 scoreboard objectives add tt_iron dummy
 scoreboard objectives add tt_gold dummy
 scoreboard objectives add tt_emerald dummy
