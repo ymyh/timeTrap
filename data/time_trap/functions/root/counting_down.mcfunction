@@ -1,4 +1,4 @@
-scoreboard players operation @s tt_remainingTime -= @s tt_one
+scoreboard players remove @s tt_remainingTime 1
 
 #把总秒数转为时分
 scoreboard players operation @s tt_remainingSec = @s tt_remainingTime

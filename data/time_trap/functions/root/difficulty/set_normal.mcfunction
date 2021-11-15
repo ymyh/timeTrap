@@ -6,4 +6,3 @@ scoreboard players set @s tt_diamond 2400
 scoreboard players set @s tt_netherite 21600
 
 tellraw @s [{"text":"你选择了: "}, {"text":"大佬", "color":"gold"}]
-execute as @s run function time_trap:root/difficulty/show_details
