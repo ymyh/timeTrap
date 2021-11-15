@@ -45,7 +45,7 @@ scoreboard players reset @s tt_hundred
 
 scoreboard players reset @s tt_operation
 
-tag @s remove tt_version_1_1_0
+tag @s remove tt_version_1_1_0_cat
 tag @s remove tt_clocking
 tag @s remove tt_set_given_time_manually
 tag @s remove tt_set_devalue_manually

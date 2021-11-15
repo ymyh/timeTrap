@@ -23,5 +23,5 @@ execute as @s[tag=!tt_set_given_time_manually] run function time_trap:root/diffi
 
 gamemode survival
 
-tag @s add tt_version_1_1_0
+tag @s add tt_version_1_1_0_cat
 tag @s add tt_clocking

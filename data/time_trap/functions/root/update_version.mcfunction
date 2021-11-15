@@ -4,4 +4,4 @@ scoreboard players set @s tt_hundred 100
 
 function time_trap:root/devalue/deactive
 
-tag @s add tt_version_1_1_0
+tag @s add tt_version_1_1_0_cat
