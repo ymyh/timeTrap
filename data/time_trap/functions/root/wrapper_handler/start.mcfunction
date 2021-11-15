@@ -15,7 +15,7 @@ scoreboard players set @s tt_twentyFour 24
 scoreboard players set @s tt_secPerHr 3600
 scoreboard players set @s tt_hundred 100
 
-execute as @s[tag=!tt_set_devalue_manually] run function time_trap:root/devalue/set_normal
+execute as @s[tag=!tt_set_devalue_manually] run function time_trap:root/devalue/deactive
 execute as @s[tag=!tt_set_devalue_manually] run function time_trap:root/devalue/show_details
 
 execute as @s[tag=!tt_set_given_time_manually] run function time_trap:root/difficulty/set_normal

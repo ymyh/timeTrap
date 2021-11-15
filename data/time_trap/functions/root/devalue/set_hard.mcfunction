@@ -1,9 +1,9 @@
 scoreboard players set @s tt_devalueLimit 5
 
-scoreboard players set @s tt_ironEachLv 5
-scoreboard players set @s tt_goldEachLv 3
-scoreboard players set @s tt_emeraldEachLv 1
-scoreboard players set @s tt_diamondEachLv 1
+scoreboard players set @s tt_ironEachLv 4
+scoreboard players set @s tt_goldEachLv 4
+scoreboard players set @s tt_emeraldEachLv 2
+scoreboard players set @s tt_diamondEachLv 2
 
 tellraw @s [{"text":"你选择了: "}, {"text":"萌新", "color":"red"}]
 
