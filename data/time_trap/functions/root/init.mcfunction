@@ -38,18 +38,10 @@
 #define NETHERITE_600  75
 #define NETHERITE_1800 77
 
-#define COPPER_5  81
-#define COPPER_10 83
-#define COPPER_20 85
-#define COPPER_30 87
-
 #define GIVE_MENU 100
 
 #define ADD_MAX_DEVALUE_LEVEL    111
 #define REDUCE_MAX_DEVALUE_LEVEL 112
-
-#define ADD_COPPER_EACH_LEVEL    121
-#define REDUCE_COPPER_EACH_LEVEL 122
 
 #define ADD_IRON_EACH_LEVEL    123
 #define REDUCE_IRON_EACH_LEVEL 124
@@ -87,20 +79,17 @@ scoreboard objectives add tt_remainingTime dummy
 
 #贬值相关分数
 scoreboard objectives add tt_devalueLimit dummy
-scoreboard objectives add tt_copperLevel dummy
 scoreboard objectives add tt_ironLevel dummy
 scoreboard objectives add tt_goldLevel dummy
 scoreboard objectives add tt_emeraldLevel dummy
 scoreboard objectives add tt_diamondLevel dummy
 
-scoreboard objectives add tt_copperEachLv dummy
 scoreboard objectives add tt_ironEachLv dummy
 scoreboard objectives add tt_goldEachLv dummy
 scoreboard objectives add tt_emeraldEachLv dummy
 scoreboard objectives add tt_diamondEachLv dummy
 
 #这里的tt应该理解为time to才对
-scoreboard objectives add tt_reduceCopper dummy
 scoreboard objectives add tt_reduceIron dummy
 scoreboard objectives add tt_reduceGold dummy
 scoreboard objectives add tt_reduceEmer dummy
@@ -111,7 +100,6 @@ scoreboard objectives add tt_temp dummy
 scoreboard objectives add tt_result dummy
 
 #某种块给予的时间
-scoreboard objectives add tt_copper dummy
 scoreboard objectives add tt_iron dummy
 scoreboard objectives add tt_gold dummy
 scoreboard objectives add tt_emerald dummy

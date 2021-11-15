@@ -1,4 +1,3 @@
-scoreboard players set @s tt_copper 45
 scoreboard players set @s tt_iron 90
 scoreboard players set @s tt_gold 300
 scoreboard players set @s tt_emerald 1020

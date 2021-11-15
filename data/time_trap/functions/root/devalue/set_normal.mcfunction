@@ -1,6 +1,5 @@
 scoreboard players set @s tt_devalueLimit 5
 
-scoreboard players set @s tt_copperEachLv 7
 scoreboard players set @s tt_ironEachLv 3
 scoreboard players set @s tt_goldEachLv 2
 scoreboard players set @s tt_emeraldEachLv 0

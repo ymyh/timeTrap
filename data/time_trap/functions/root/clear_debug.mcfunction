@@ -14,19 +14,16 @@ scoreboard players reset @s tt_diamond
 scoreboard players reset @s tt_netherite
 
 scoreboard players reset @s tt_devalueLimit
-scoreboard players reset @s tt_copperLevel
 scoreboard players reset @s tt_ironLevel
 scoreboard players reset @s tt_goldLevel
 scoreboard players reset @s tt_emeraldLevel
 scoreboard players reset @s tt_diamondLevel
 
-scoreboard players reset @s tt_copperEachLv
 scoreboard players reset @s tt_ironEachLv
 scoreboard players reset @s tt_goldEachLv
 scoreboard players reset @s tt_emeraldEachLv
 scoreboard players reset @s tt_diamondEachLv
 
-scoreboard players reset @s tt_reduceCopper
 scoreboard players reset @s tt_reduceIron
 scoreboard players reset @s tt_reduceGold
 scoreboard players reset @s tt_reduceEmer
